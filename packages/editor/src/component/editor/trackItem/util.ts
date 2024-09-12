@@ -1,7 +1,7 @@
 import { RefObject } from "react";
 
 /**
- * @description 渲染视频时间帧到canvas上
+ * @description 抽帧函数
  */
 export const drawVideoFrame = async (
   video: HTMLVideoElement,

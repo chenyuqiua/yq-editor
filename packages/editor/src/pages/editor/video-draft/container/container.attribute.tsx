@@ -1,9 +1,10 @@
+import { memo } from "react";
 import { cn } from "@/util/css";
 
 interface Props {
   className?: string;
 }
 
-export function AttributeContainer({ className }: Props) {
+export const AttributeContainer = memo(({ className }: Props) => {
   return <div className={cn(className)}>Attribute</div>;
-}
+});

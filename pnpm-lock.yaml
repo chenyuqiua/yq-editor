@@ -88,7 +88,11 @@ importers:
         specifier: ^1.8.1
         version: 1.8.1(eslint@8.57.0)(vite@5.4.3(@types/node@22.5.4))
 
-  packages/control: {}
+  packages/control:
+    devDependencies:
+      '@yq-editor/render':
+        specifier: workspace:*
+        version: link:../render
 
   packages/data: {}
 

@@ -1,3 +1,1 @@
-export function testControl() {
-  return "testControl";
-}
+export { Controller } from "./src/controller";
